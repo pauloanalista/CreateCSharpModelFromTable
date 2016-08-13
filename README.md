@@ -3,9 +3,9 @@
 Script responsável por criar uma classe c# a partir de uma tabela do
 banco de dados sql server
 
-### Como usar o script
+### Veja como criar as classes através da tabela
 
-Informe na primeira o nome da tabela e execute o script.
+Informe na primeira linha do script o nome da tabela e execute o script.
 
 ```sh
 declare @TableName sysname = 'Usuario'
@@ -68,7 +68,7 @@ set @Result = @Result  + '
 
 print @Result
 ```
-### Confira o resultado do script
+### Confira o resultado da execução do script
 
 ```sh
 public class Usuario
