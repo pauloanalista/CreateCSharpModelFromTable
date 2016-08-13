@@ -68,3 +68,29 @@ set @Result = @Result  + '
 
 print @Result
 ```
+### Confira o resultado do script
+
+```sh
+public class Usuario
+{
+    public string UsuarioID { get; set; }
+
+    public string Nome { get; set; }
+
+    public string Email { get; set; }
+
+    public string Senha { get; set; }
+
+    public DateTime DataCadastro { get; set; }
+
+    public DateTime DataModificacao { get; set; }
+
+    public DateTime? DataUltimoAcesso { get; set; }
+
+    public bool Ativo { get; set; }
+
+    public bool Excluido { get; set; }
+
+}
+
+```
