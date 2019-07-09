@@ -56,4 +56,4 @@ order by ColumnId
 set @Result = @Result  + '
 }'
 
-print @Result
+print CAST(@Result AS NTEXT)
